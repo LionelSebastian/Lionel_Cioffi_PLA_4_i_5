@@ -3,19 +3,25 @@
  * 
  *
  */
-
-var posicionCaracter= 0;
+var posicionCadena = 0;
+var posicionCaracter = 0;
+var resultado = [];
 
 function CercarCaracter()
 {
-   cadenadeLetras = cadenadeLetras.toLowerCase();
    for (i=0; i<cadenadeLetras.length; i++)
-   {        if (cadenadeLetras.charAt(i)==caracter) 
+   {   if (cadenadeLetras.charAt(posicionCadena)==caracter) 
             {
-            posicionCaracter=i+1;
-            i=cadenadeLetras.length+1;
+            resultado[posicionCaracter] = posicionCadena+1;
+            posicionCaracter++;
+            
             }  
+       posicionCadena++
+   } 
+   if (resultado == 0) 
+   {
+   resultado.toString();
+   resultado = " No se ha encontrado el caracter en la frase";  
    }
-          
-   return posicionCaracter;
+   return resultado;
 }

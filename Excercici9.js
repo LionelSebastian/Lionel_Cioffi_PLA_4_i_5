@@ -25,7 +25,7 @@ function CercarCaracter()
                 }             
             }  
         resultado.toString();    
-        output = fraseEncontrada.concat(resultado," Gracias por jugar con nosotros!!")          
+        output = fraseEncontrada.concat(resultado," Gracias por jugar con nosotros!!");          
         }            
    return output;
 

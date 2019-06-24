@@ -5,7 +5,7 @@
  */
 
 var STRINGDELETRAS = "THE BEST IS ALWAYS YET TO COME";
-var contadorCaracter= 0;
+var contadorCaracter = 0;
 
 
 function CercarCaracter()
@@ -14,5 +14,10 @@ function CercarCaracter()
    {       
        if (STRINGDELETRAS.charAt(i)==caracter) {contadorCaracter++;}  
    }                                              //Utilizo la misma variable i para posicionarme en el string  
-    return contadorCaracter;        
+   if (contadorCaracter==0) 
+   {
+       contadorCaracter.toString();
+       contadorCaracter = "No se ha encontrado su caracter en la frase";      
+   } 
+   return contadorCaracter;        
 }

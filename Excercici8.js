@@ -32,7 +32,12 @@ function CercarCaracter()
             resultado[posicionCaracter] = i+1;
              posicionCaracter++;            
          }                       
-      }                    
+      }
+   if (resultado == 0) 
+   {
+   resultado.toString();
+   resultado = " No se ha encontrado ninguna letra A en su frase";  
+   }                    
       resultado.toString();                  
       output = fraseEncontrada.concat(resultado)             
    } 

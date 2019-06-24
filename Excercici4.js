@@ -17,5 +17,10 @@ function CercarCaracter()
 //le damos a i el valor necesario que termine el loop
             }  
    }
+   if (posicionCaracter==0) 
+   {
+       posicionCaracter.toString();
+       posicionCaracter = "No se ha encontrado su caracter en la frase";      
+   } 
    return posicionCaracter;
 }

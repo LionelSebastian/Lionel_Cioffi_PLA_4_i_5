@@ -18,5 +18,10 @@ function CercarCaracter()
             }  
        posicionCadena++
    } 
+   if (resultado == 0) 
+   {
+   resultado.toString();
+   resultado = " No se ha encontrado ninguna letra A en su frase frase";  
+   }
    return resultado;
 }

@@ -24,5 +24,10 @@ function CercarCaracter()
                       posicionCadena++
                      }
              }
+   if (contadorCaracter==0) 
+   {
+       contadorCaracter.toString();
+       contadorCaracter = "No se ha encontrado su caracter en la frase";      
+   } 
    return contadorCaracter;
 }
