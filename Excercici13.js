@@ -3,7 +3,7 @@
  * 
  */
 var VECTORnxn = [];
-var respuesta = "La suma de la diagonal de este vector ";
+var respuesta = "La suma de la diagonal de la matriz representada en este vector:: ";
 var output = "";
 var resultado = 0;
 var posicionDiagonal = 0;
@@ -21,7 +21,7 @@ function sumaDiagonal()
         posicionDiagonal = posicionDiagonal + multiplicador + 1;          
     }   
 resultado.toString();
-output = respuesta.concat(VECTORnxn," da como resultado ",resultado);
+output = respuesta.concat(VECTORnxn,"  da como resultado :: ",resultado);
 return output
 
 }

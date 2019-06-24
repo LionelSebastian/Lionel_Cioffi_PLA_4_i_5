@@ -17,13 +17,13 @@ function idNumDiagonal()
 
         for (i = 0; i<(multiplicador*multiplicador); i++)
         {
-            vectorNxn[i] = Math.floor(Math.random() * 100);
+            vectorNxn[i] = Math.floor(Math.random() * 100)-50;
         }  
     
         for (j = 0; j < multiplicador; j++)
         {   
             resultado[0] = resultado[0] + vectorNxn[posicionDiagonal];
-            posicionDiagonal = posicionDiagonal + multiplicador + 1; 
+            posicionDiagonal = posicionDiagonal + multiplicador; 
         }
     resultado[0] = resultado[0]/3;    
     resultado.toString();

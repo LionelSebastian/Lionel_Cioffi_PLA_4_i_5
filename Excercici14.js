@@ -24,9 +24,9 @@ function idNumDiagonal()
     for (j = 0; j < multiplicador; j++)
     {   
 
-        if (vectorNxn[posicionDiagonal]==0) {ceros = ceros+1;}
-        if (vectorNxn[posicionDiagonal]>0) {numPos = numPos+1;}
-        if (vectorNxn[posicionDiagonal]<0) {numNeg = numNeg+1;}
+        if (vectorNxn[posicionDiagonal]==0) {ceros++}
+        if (vectorNxn[posicionDiagonal]>0) {numPos++}
+        if (vectorNxn[posicionDiagonal]<0) {numNeg++}
         posicionDiagonal = posicionDiagonal + multiplicador + 1; 
     }
 
