@@ -1,2 +1,2 @@
-# Lionel_Cioffi_PLA4_i_5
-Ejercicios de la PLA3 traducidos a JavaScript
+# Lionel Sebastian Cioffi
+En este repositorio encontrara los ejercicios de la PLA3 contenida en en CURSO DE INTRICUCCION A LA PROGRAMACION de la CIFO La Violeta traducidos a JavaScript
